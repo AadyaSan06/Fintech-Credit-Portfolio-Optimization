@@ -37,7 +37,7 @@ Libraries: NumPy (Matrix Ops), SymPy (Symbolic Math/RREF), Pandas (Data Handling
 Mathematical Concepts: Orthogonalization, Eigen-decomposition, Rank-Nullity, Least Squares Regression
 
 ## Demo
-Intitial interface, alos supports providing own custom cvs to be uploaded and verify risk
+Intitial interface, also supports providing own custom cvs to be uploaded and analyse risk.
 <img width="1917" height="1008" alt="image" src="https://github.com/user-attachments/assets/2a81a230-77dd-477e-ac56-9f32380ad98e" />
 
 A dynamic data throttling slider that enables real-time adjustment of the processing batch size ($n$), allowing for instantaneous performance scaling and live visualization of matrix results
