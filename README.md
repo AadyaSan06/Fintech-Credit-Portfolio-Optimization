@@ -17,11 +17,17 @@ Interactive System Status Log: Provides real-time feedback on matrix rank, nulli
 
 Professional Visualization Suite: Includes three primary analytical views:
 
-Least Squares Prediction: Compares actual historical risk against model predictions.
+  * Least Squares Prediction: Compares actual historical risk against model predictions.
 
-Factor Independence: A heatmap displaying the success of Gram-Schmidt orthogonality.
+  * Factor Independence: A heatmap displaying the success of Gram-Schmidt orthogonality.
 
-Borrower Risk Clusters: A PCA-driven scatter plot identifying borrower intensity trends.
+  * Borrower Risk Clusters: A PCA-driven scatter plot identifying borrower intensity trends.
+
+## Key Interface Features
+* Seamless Initialization: Automatically detects and loads the default data.csv upon startup to ensure the dashboard is immediately ready for analysis.
+* Custom Data Integration: Supports user-driven analysis by allowing external .csv files to be uploaded via an integrated file explorer.
+* Variable Data Sample Selection: Features a dynamic slider that allows users to select a specific number of records (n) for processing, enabling real-time performance testing.
+* Interactive System Status Log: Displays live mathematical diagnostics, including matrix rank and redundancy checks (Rank-Nullity Theorem results), as the data is processed
 
 ## Technology Stack
 Languages: Python
@@ -31,12 +37,13 @@ Libraries: NumPy (Matrix Ops), SymPy (Symbolic Math/RREF), Pandas (Data Handling
 Mathematical Concepts: Orthogonalization, Eigen-decomposition, Rank-Nullity, Least Squares Regression
 
 ## Demo
+Intitial interface, alos supports providing own custom cvs to be uploaded and verify risk
 <img width="1917" height="1008" alt="image" src="https://github.com/user-attachments/assets/2a81a230-77dd-477e-ac56-9f32380ad98e" />
 
-
+A dynamic data throttling slider that enables real-time adjustment of the processing batch size ($n$), allowing for instantaneous performance scaling and live visualization of matrix results
 <img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/c9a9240a-f32c-4acd-90da-ca7d26fa133a" />
 
-
+Server side information
 <img width="545" height="257" alt="image" src="https://github.com/user-attachments/assets/b5893b52-ae6a-4a5f-a93b-8edae067ade7" />
 
 
